@@ -1,8 +1,13 @@
+import HeroSection from "./components/HeroSection/HeroSection";
+import Summary from "./components/Summary/Summary";
+import "./App.css";
+
 const App = () => {
   return (
-    <div>
-      App
-    </div>
+    <>
+      <HeroSection />
+      <Summary />
+    </>
   );
 };
 
