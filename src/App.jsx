@@ -4,10 +4,16 @@ import "./App.css";
 
 const App = () => {
   return (
-    <>
-      <HeroSection />
-      <Summary />
-    </>
+    <main>
+      <div className="main">
+        <div className="gradient" />
+      </div>
+
+      <div className="app">
+        <HeroSection />
+        <Summary />
+      </div>
+    </main>
   );
 };
 
