@@ -14,13 +14,19 @@ const Summary = () => {
                         alt="link icon"
                         className="absolute left-0 my-2 ml-3 w-5"
                     />
+
                     <input
                         type="url"
                         placeholder='Paste the article link'
                         value=""
-                        onChange={()=>{}}
+                        onChange={() => { }}
                         className="url_input peer"
                     />
+
+                    <button
+                        type="submit"
+                        className="submit_btn peer-focus:border-gray-700 peer-focus:text-gray-700"
+                    >Submit</button>
                 </form>
             </div>
         </section>
