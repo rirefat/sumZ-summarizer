@@ -12,7 +12,7 @@ const HeroSection = () => {
 
                 <button
                     type='button'
-                    onClick={() => window.open('https://github.com/rirefat')}
+                    onClick={() => window.open('https://github.com/rirefat/sumZ-summarizer')}
                     className='black_btn shadow-xl'
                 >Github</button>
             </nav>
