@@ -1,5 +1,5 @@
-import HeroSection from "./components/HeroSection/HeroSection";
-import Summary from "./components/Summary/Summary";
+import HeroSection from "./components/HeroSection";
+import Summary from "./components/Summary";
 import "./App.css";
 
 const App = () => {

@@ -1,5 +1,4 @@
-import { linkIcon } from "../../assets";
-
+import { linkIcon } from "../assets";
 
 const Summary = () => {
     return (
