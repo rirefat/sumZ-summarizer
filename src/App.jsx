@@ -12,6 +12,8 @@ const App = () => {
       <div className="app">
         <HeroSection />
         <Summary />
+
+        {/* <Footer /> */}
       </div>
     </main>
   );
