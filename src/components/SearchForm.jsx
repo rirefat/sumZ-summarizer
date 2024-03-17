@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { linkIcon } from '../assets';
+import { linkIcon, submit } from '../assets';
 
 const SearchForm = () => {
     const [article, setArticle] = useState({
@@ -8,7 +8,7 @@ const SearchForm = () => {
     });
 
     const handleSubmit = (e) => {
-        
+
     }
 
     return (
@@ -27,14 +27,20 @@ const SearchForm = () => {
                 placeholder='Paste the article link'
                 value={article.url}
                 required
-                onChange={(e) => setArticle({...article, url: e.target.value})}
+                onChange={(e) => setArticle({ ...article, url: e.target.value })}
                 className="url_input peer"
             />
 
             <button
                 type="submit"
                 className="submit_btn peer-focus:border-gray-700 peer-focus:text-gray-700"
-            >Submit</button>
+            >
+                <img
+                    src={submit}
+                    alt="submit icon"
+                    className=""
+                />
+            </button>
         </form>
     );
 };
